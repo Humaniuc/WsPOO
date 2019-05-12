@@ -8,7 +8,9 @@ namespace GSMProject
 {
     class Display
     {
-        private double size;
-        private uint numColors;
+        internal double size;
+        internal uint numColors;
+
+
     }
 }

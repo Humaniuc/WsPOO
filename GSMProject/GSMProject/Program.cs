@@ -10,7 +10,10 @@ namespace GSMProject
     {
         static void Main(string[] args)
         {
+            GSM gsm = new GSM("Mi A2", "Xiaomi");
+            Console.WriteLine(gsm.ToString()); 
 
+            Console.ReadLine();
         }
     }
 }
